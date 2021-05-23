@@ -30,6 +30,21 @@ anime
     delay: anime.stagger(500),
   })
   .add({
+    targets: "#education",
+    translateY: [40, 0],
+    opacity: [0, 1],
+    duration: 500,
+    easing: "easeInOutSine",
+  })
+  .add({
+    targets: ".education .card",
+    translateY: [40, 0],
+    opacity: [0, 1],
+    duration: 500,
+    delay: anime.stagger(250),
+    easing: "easeInOutSine",
+  })
+  .add({
     targets: "#experience",
     translateY: [40, 0],
     opacity: [0, 1],
